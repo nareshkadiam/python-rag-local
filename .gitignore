@@ -1,0 +1,15 @@
+# Virtual environments
+.venv/
+.venv-check/
+
+# Generated Python files
+__pycache__/
+*.py[cod]
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Generated document index
+data/document_index.json

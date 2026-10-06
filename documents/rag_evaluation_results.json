@@ -1,0 +1,107 @@
+{
+  "results": [
+    {
+      "name": "Password recovery",
+      "question": "How do I recover my login credentials?",
+      "expected_answer": "Contact the support team to reset the password.",
+      "actual_answer": "To recover your login credentials, you need to contact the support team to reset your account password [Chunk 4].",
+      "retrieved_chunk_ids": [
+        4,
+        3
+      ],
+      "retrieval_pass": true,
+      "retrieved_chunks": [
+        {
+          "chunk_id": 4,
+          "text": "Contact the support team to reset your account password.",
+          "score": 0.4288120334149687
+        },
+        {
+          "chunk_id": 3,
+          "text": "Employees claim travel expenses through the company finance portal.",
+          "score": 0.18334708272357275
+        }
+      ],
+      "citation_check": {
+        "cited_chunk_ids": [
+          4
+        ],
+        "unknown_chunk_ids": [],
+        "has_citations": true,
+        "all_cited_ids_available": true
+      },
+      "manual_review": {
+        "citation_support": "pass",
+        "notes": "Retrieved and analysed correctly"
+      }
+    },
+    {
+      "name": "Travel reimbursement",
+      "question": "How can I get reimbursed for business travel?",
+      "expected_answer": "Claim travel expenses through the finance portal.",
+      "actual_answer": "You can get reimbursed for business travel by claiming travel expenses through the company finance portal [Chunk 3].",
+      "retrieved_chunk_ids": [
+        3,
+        2
+      ],
+      "retrieval_pass": true,
+      "retrieved_chunks": [
+        {
+          "chunk_id": 3,
+          "text": "Employees claim travel expenses through the company finance portal.",
+          "score": 0.5458153359696012
+        },
+        {
+          "chunk_id": 2,
+          "text": "Managers review leave requests based on team staffing needs.",
+          "score": 0.23822099646859285
+        }
+      ],
+      "citation_check": {
+        "cited_chunk_ids": [
+          3
+        ],
+        "unknown_chunk_ids": [],
+        "has_citations": true,
+        "all_cited_ids_available": true
+      },
+      "manual_review": {
+        "citation_support": "pass",
+        "notes": "citation is correct"
+      }
+    },
+    {
+      "name": "Missing information",
+      "question": "What food does the cafeteria serve?",
+      "expected_answer": "States that the supplied information is insufficient.",
+      "actual_answer": "The supplied passages do not provide this information.",
+      "retrieved_chunk_ids": [
+        2,
+        3
+      ],
+      "retrieval_pass": null,
+      "retrieved_chunks": [
+        {
+          "chunk_id": 2,
+          "text": "Managers review leave requests based on team staffing needs.",
+          "score": 0.1279292213439857
+        },
+        {
+          "chunk_id": 3,
+          "text": "Employees claim travel expenses through the company finance portal.",
+          "score": 0.10677895126244698
+        }
+      ],
+      "citation_check": {
+        "cited_chunk_ids": [],
+        "unknown_chunk_ids": [],
+        "has_citations": false,
+        "all_cited_ids_available": true
+      },
+      "manual_review": {
+        "citation_support": "na",
+        "notes": "no citation"
+      }
+    }
+  ]
+}

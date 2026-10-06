@@ -1,0 +1,4 @@
+Employees can request leaves through the HR portal. 
+The leave request form must be filled out completely and submitted at least two weeks in advance. 
+Managers will review the requests and approve or deny them based on company policy and staffing needs.
+All new employees can only use their leaves after 3months of employment.
